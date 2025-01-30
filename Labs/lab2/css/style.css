@@ -1,0 +1,39 @@
+body {
+    font-family: "Sama Kannada", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #800080;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #800080;
+    color: white;
+}
+
+a {
+    color: #800080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
