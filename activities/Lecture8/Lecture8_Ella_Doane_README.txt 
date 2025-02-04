@@ -1,0 +1,80 @@
+# Activity lecture 8
+
+**[Optional]** If what is being submitted is an individual Lab or Assignment. Otherwise, include a brief one paragraph description about the project.
+
+* *Date Created*: 03 02 2025
+* *Last Modification Date*: 03 02 2025
+* *Lab URL*: https://git.cs.dal.ca/edoane/csci-3172/-/tree/main/activities/Lecture8
+
+
+
+## Authors
+
+If what is being submitted is an individual Lab or Assignment, you may simply include your name and email address. Otherwise list the members of your group.
+
+* [Ella Doane](el675125@dal.ca) - (Student)
+
+
+
+## Built With
+
+<!--- Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below --->
+
+* [IntelliJ](https://www.jetbrains.com/idea/) - IDE used
+* [GitLab](https://git.cs.dal.ca/edoane) - Version control.
+* [FileZilla](https://filezilla-project.org/) - FTP client used for file transfers
+
+
+
+## Sources Used
+
+If in completing your lab / assignment / project you used any interpretation of someone else's code, then provide a list of where the code was implemented, how it was implemented, why it was implemented, and how it was modified. See the sections below for more details.
+
+
+### File Name
+
+*Lines ##1 - ##31*
+
+```
+Copy and paste your code on lines mentioned
+let date = new Date();
+let hours = date.getHours();
+
+let welcomeMessage;
+
+if (hours < 12) {
+    welcomeMessage = "Good Morning!";
+}
+else if (hours < 17) {
+    welcomeMessage = "Good Afternoon";
+}
+else if (hours < 19) {
+    welcomeMessage = "Good Evening";
+}
+else {
+    welcomeMessage = "Good Night";
+}
+
+document.getElementById('greeting').innerHTML = '<strong>' + welcomeMessage + '</strong>';
+
+let a, b;
+
+function getNumbers() {
+    a = Number(document.getElementById('number1').value);
+    b = Number(document.getElementById('number2').value);
+}
+
+function addition() {
+    getNumbers();
+    let result = a + b;
+    alert('The sum of ' + a + ' and ' + b + ' equals ' + result);
+}
+```
+
+The code above was created by adapting the code from Instructor Gabriella Mosquera in her L8V3: Traversing the DOM (Post-Lecture Video)
+
+```
+
+I used this snippet of code to get a baseline of the activity. I used to understand how to set up the first add function. Then I could create the other math methods.
+
+
