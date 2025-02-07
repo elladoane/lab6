@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boat Inventory Management System</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+<body>
+<header>
+  <h1>Boat Inventory Management System</h1>
+</header>
+
+<main>
+  <section id="inventory">
+    <h2>Boat Inventory</h2>
+    <ul id="inventory-list"></ul>
+  </section>
+
+  <section id="add-item">
+    <h2>Add New Boat</h2>
+    <form id="add-item-form">
+      <input type="text" id="boat-name" placeholder="Boat Name" required>
+      <input type="text" id="boat-type" placeholder="Boat Type" required>
+      <input type="number" id="boat-price" placeholder="Boat Price" required>
+      <input type="number" id="boat-quantity" placeholder="Boat Quantity" required>
+      <textarea id="boat-description" placeholder="Boat Description"></textarea>
+      <button type="submit">Add Boat</button>
+    </form>
+  </section>
+  <section id="search-section">
+    <input type="text" id="search-query" placeholder="Search for boats" />
+    <button id="search-btn">Search</button>
+    <button id="calculate-total-btn">Calculate Total Value</button>
+  </section>
+  <div id="total-value"></div>
+</main>
+
+<script src='js/script.js'></script>
+</body>
+</html>
