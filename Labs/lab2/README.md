@@ -5,6 +5,7 @@
 * *Date Created*: 28 01 2025
 * *Last Modification Date*: 30 01 2025
 * *Lab URL*: https://git.cs.dal.ca/edoane/csci-3172/-/tree/main/Labs/lab2
+timberlea: https://web.cs.dal.ca/~edoane/csci3172/Labs/lab2/lab2/
 
 
 ## Authors
