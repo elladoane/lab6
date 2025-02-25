@@ -5,7 +5,8 @@
 * *Date Created*: 02 02 2025
 * *Last Modification Date*: 03 02 2025
 * *Lab URL*: https://git.cs.dal.ca/edoane/csci-3172/-/tree/main/activities/Lecture7
-*https://web.cs.dal.ca/edoane/csci3172/activities/lecture7/lecture7/csci-3172
+*https://web.cs.dal.ca/~edoane/csci3172/activities/lecture7/lecture7/csci-3172/activities/Lecture7
+
 
 
 ## Authors
