@@ -1,0 +1,27 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start": "node backend/netlify/functions/api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
+    "supertest": "^7.0.0"
+  }
+}
