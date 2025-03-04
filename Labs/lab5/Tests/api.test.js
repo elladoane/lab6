@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "../server.js";
+import { app } from "../backend/netlify/functions/api.js";
 
 import * as test from "node:test";
 

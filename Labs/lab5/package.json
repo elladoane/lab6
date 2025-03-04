@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "start": "node backend/netlify/functions/api.js"
+    "start": "node backend/netlify/functions/3.js"
   },
   "keywords": [],
   "author": "",
