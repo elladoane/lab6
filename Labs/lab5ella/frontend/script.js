@@ -1,5 +1,4 @@
-
-
+// Function to search for an image based on the user's query
 async function searchImage() {
     const query = document.getElementById("searchQuery").value;
     if (!query) {
@@ -31,6 +30,7 @@ async function searchImage() {
     }
 }
 
+// Function to load the image onto the canvas
 function loadMemeImage(url) {
     const img = new Image();
     img.crossOrigin = "anonymous";
@@ -40,6 +40,7 @@ function loadMemeImage(url) {
     };
 }
 
+// Function to draw the image on the canvas
 function drawMeme(img) {
     const canvas = document.getElementById("memeCanvas");
     const ctx = canvas.getContext("2d");
@@ -48,6 +49,7 @@ function drawMeme(img) {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 }
 
+// Function to generate meme with top and bottom text
 function generateMeme() {
     const canvas = document.getElementById("memeCanvas");
     const ctx = canvas.getContext("2d");
@@ -66,6 +68,7 @@ function generateMeme() {
     ctx.strokeText(bottomText, canvas.width / 2, canvas.height - 20);
 }
 
+// Function to download the meme as an image
 function downloadMeme() {
     const canvas = document.getElementById("memeCanvas");
     const link = document.createElement("a");
